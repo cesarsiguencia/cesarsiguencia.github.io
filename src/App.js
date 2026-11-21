@@ -86,7 +86,11 @@ function App() {
       technologies: ['HTML', 'CSS', 'PureCSS', 'Javascript', 'APIs'],
       url: 'https://cesarsiguencia.github.io/dine-n-wine/',
       developer: 'GROUP PROJECT | Front End Developer'
-    },
+    }
+    
+
+    ,
+    /*
     {
       name: 'Weather-Dashboard',
       short_des: 'Search and save cities through their weekly weather forecast',
@@ -94,7 +98,9 @@ function App() {
       technologies: ['Javascript', 'HTML', 'CSS', 'Moment.js', 'Bootstrap', 'APIs'],
       url: 'https://cesarsiguencia.github.io/weather-dashboard/',
       developer: 'Sole Developer'
+      
     }
+      */
   ]
 
 

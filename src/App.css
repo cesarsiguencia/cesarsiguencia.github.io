@@ -187,9 +187,6 @@ body::before {
   scale: 0.97;
 }
 
-.body-divs:hover{
-  scale: 1;
-}
 
 .body-texts{
   font-size: 18px;
@@ -234,7 +231,7 @@ body::before {
 .home-btns:hover{
   transform: rotateX(-360deg);
   background-color: rgb(255, 165, 0);
-  scale: 1.1
+  scale: 1
 }
 
 /* About on Home Pg */

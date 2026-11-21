@@ -11,7 +11,7 @@ const Footer = () => {
           <ContactBlock></ContactBlock>
 
           <div className="footer-font align-ver center">
-            <p className="body-texts">©Copyright 2023, All Rights Reserved</p>
+            <p className="body-texts">©Copyright 2023 - 2026, All Rights Reserved</p>
           </div>
       </footer>
     )

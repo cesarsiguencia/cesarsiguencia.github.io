@@ -101,7 +101,7 @@ const Home = ({ apps, bodyBtnsData }) => {
                 <div className='header-text'>
 
                     <h1>My name is C<span className='red-font'>é</span>sar (pronunced Say-sar)</h1>
-                    <p>Full Stack Web Developer</p>
+                    <p>Full Stack Web Developer | Education Leadership | Data Analyst</p>
                     <p className='header-slogan'><strong className='red-font'>C</strong>reative At Heart, <strong className='red-font'>C</strong>onstantly Learning, <strong className='red-font'>Challenges Conquered</strong></p>
                     <ContactBlock></ContactBlock>
 
@@ -122,14 +122,19 @@ const Home = ({ apps, bodyBtnsData }) => {
 
                     <div className='section-content'>
                         <div className='row about-box'>
+                            
                             <div className="align-ver">
-                                <img alt='profile of Cesar' src={Portrait} style={{ display: 'inline-block', height: '250px', borderRadius: '100px', margin: '0 auto' }}></img>
+                                <img alt='profile of Cesar' src={Portrait} style={{ display: 'inline-block', height: '300px', borderRadius: '100px', margin: '0 auto' }}></img>
                             </div>
+                            
 
 
                             <div className='align-ver about-des'>
                                 <div>
-                                    <p className="body-texts left"> Welcome! I create <span className="red-font bold">full stack web applications</span> with an emphasis on <span className="red-font bold"></span>productivity and social media. I completed a Full Stack Web Developer course from <span className="red-font bold"> Columbia University</span> in 2022 where I learned various of the latest and essential developer technologies (see list below). I'm a <span className="red-font bold">life long New Yorker</span> with a knack for music and electronic repairs. Please view my featured projects and if you would like to connect, contact me using any of my contact links. <span className="red-font bold">Can't wait to hear from you!</span> </p>
+                                    <p className="body-texts left"> Welcome! I create <span className="red-font bold">full stack web and MERN applications</span> with an emphasis on <span className="red-font bold"></span>productivity and social media. I completed a Full Stack Web Developer course from <span className="red-font bold"> Columbia University</span> (managed by edX) in 2022 where I learned various of the latest and essential developer technologies (see list below). <span className="red-font bold">The web app your are currently viewing is powered by React</span> as well as several of my web projects listed below! 
+                                    <br/>
+                                    <br/>
+                                    I'm a <span className="red-font bold">life long New Yorker</span> with a knack for music and electronic repairs. Please view my featured projects and if you would like to connect, contact me using any of my contact links. <span className="red-font bold">Can't wait to hear from you!</span> </p>
                                     <br />
 
                                     <BodyBtn toPage={bodyBtnsData.about}></BodyBtn>

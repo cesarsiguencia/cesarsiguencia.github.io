@@ -31,19 +31,31 @@ const techIcons = () => {
         {
             name: 'Front End',
             links: [
-                { url: html, name: 'HTML' }, { url: css, name: 'CSS' }, { url: js, name: 'JavaScript' }, { url: jquery, name:'JQuery' }, { url: bootstrap, name: 'Bootstrap' }, { url: react, name: 'React.js' }, { url: handlebars, name: 'Handlebars.js' }
+                { url: html, name: 'HTML' }, { url: css, name: 'CSS' }, { url: js, name: 'JavaScript' }, { url: react, name: 'React.js' }, { url: jquery, name:'JQuery' }, { url: bootstrap, name: 'Bootstrap' },
+                
+                //{ url: handlebars, name: 'Handlebars.js' }//
             ]
         },
         {
             name: 'Back End',
             links: [
-                { url: node, name: 'Node.js' }, { url: python, name: 'Python' }, { url: api , name:'REST APIs'}, { url: express, name: 'Express'}, { url: mysql , name: 'MySQL'}, {url:postgresql, name: 'PostgreSQL'},{ url: sequelize, name: 'Sequelize ORM'}, { url: mongodb, name: 'MongoDB' }, { url: mongoose, name: 'Mongoose ODM' },
+                { url: node, name: 'Node.js' }, { url: python, name: 'Python' }, { url: api , name:'REST APIs'}, { url: express, name: 'Express.js'}, { url: mysql , name: 'MySQL'}, { url: mongodb, name: 'MongoDB' }, 
+                
+                /* {url:postgresql, name: 'PostgreSQL'},
+                { url: sequelize, name: 'Sequelize ORM'},
+                { url: mongoose, name: 'Mongoose ODM' }, */
             ]
         },
         {
             name: 'Developer Technologies',
             links: [
-                { url: git , name: 'Git'}, { url: github, name: 'GitHub' }, { url: vscode, name: 'VSCode' }, { url: graphql, name:'GraphQL'}, {url:command, name: 'CLI/Terminal'}, {url: insomnia, name: 'Insomnia'}, {url: apollo, name: 'Apollo'}, {url: framework, name: 'MVC/MERN'}, 
+                { url: git , name: 'Git'}, { url: github, name: 'GitHub' }, { url: vscode, name: 'VSCode' },{url:command, name: 'CLI/Terminal'}, {url: insomnia, name: 'Insomnia'}, {url: framework, name: 'MVC/MERN'}
+
+                /*
+                { url: graphql, name:'GraphQL'}
+                {url: apollo, name: 'Apollo'}, 
+
+                */
             ]
         }
     ]
