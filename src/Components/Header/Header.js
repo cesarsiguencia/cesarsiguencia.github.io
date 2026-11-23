@@ -12,7 +12,7 @@ const Header = () => {
     <header className="App-header" id='header'>
       <div className="Header-contents">
 
-        <Link to="/my-react-portfolio" className='align-ver center'><img alt="Gif of Cesar's name typed out as logo of site"style={{ height: '100px', borderRadius: '10px' }} src={Title}></img></Link>
+        <Link to="" className='align-ver center'><img alt="Gif of Cesar's name typed out as logo of site"style={{ height: '100px', borderRadius: '10px' }} src={Title}></img></Link>
 
         <Nav></Nav>
       </div>

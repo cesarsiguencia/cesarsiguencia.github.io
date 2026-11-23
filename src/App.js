@@ -148,21 +148,21 @@ function App() {
               <div>
                 <Routes>
                   <Route
-                    path="/my-react-portfolio"
+                    path=""
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}
                     ><Home apps={applications} bodyBtnsData={bodyBtns} /></React.Suspense>}
                   />
 
 
                   <Route
-                    path="/my-react-portfolio/aboutme"
+                    path="/aboutme"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><AboutMe bodyBtnsData={bodyBtns}/></React.Suspense>}
                   />
 
                   {applications.map((page, i) => {
                     return (
                       <Route key={i}
-                        path={`/my-react-portfolio/${page.name}`}
+                        path={`${page.name}`}
                         element={<React.Suspense fallback={<LoadingPg></LoadingPg>}
                         ><ProjectPg
                             singleApp={page}
@@ -181,10 +181,10 @@ function App() {
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Pg404 goHome={bodyBtns.home}/></React.Suspense>}
                   />
 
-                  <Route
-                    path="/my-react-portfolio/*"
+                  {/* <Route
+                    path="/*"
                     element={<React.Suspense fallback={<LoadingPg></LoadingPg>}><Pg404 goHome={bodyBtns.home}/></React.Suspense>}
-                  />
+                  /> */}
 
 
 

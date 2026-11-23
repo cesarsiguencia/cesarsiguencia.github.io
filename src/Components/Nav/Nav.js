@@ -38,7 +38,7 @@ const Nav = () => {
 
         {pages.map((page) => (
           <div className='navBtns align-ver' id="navtab" key={page.name}>
-            <NavHashLink onClick={hamburgerMenu}  to={`/my-react-portfolio${page.url}`}>
+            <NavHashLink onClick={hamburgerMenu}  to={`${page.url}`}>
               <p className='links' >{page.name}</p>
             </NavHashLink>
           </div>

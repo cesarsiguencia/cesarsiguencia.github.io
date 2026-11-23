@@ -48,7 +48,7 @@ const displayApp = ({ applications, setProjectTrigger, setDetectProjectBtnId }) 
 
                     </a>
 
-                    <Link to={`/my-react-portfolio/${app.name}`} className='app-options align-ver center' style={{ backgroundColor: 'rgba(255, 165, 0, 0.8)' }}>
+                    <Link to={`${app.name}`} className='app-options align-ver center' style={{ backgroundColor: 'rgba(255, 165, 0, 0.8)' }}>
                         <div className='projectBtns'>
                             <p className='links h3'>Learn More</p>
                         </div>
